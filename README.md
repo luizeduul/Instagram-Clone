@@ -3,7 +3,8 @@
 </h1>
 
 <p align="center">
- 
+ <img alt="Repository size" src="https://img.shields.io/github/repo-size/luizeduul/Instagram-Clone">
+ <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/luizeduul/Instagram-Clone">
  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
 <p>Desenvolvido com a aula "Clone da interface do instagram com React Native" da Digital Innovation One,  ministrado pelo <a href="https://github.com/robertosousa1/" target="_blank" rel="noopener noreferrer nofollow">Roberto Souza</a></p>
