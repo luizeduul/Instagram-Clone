@@ -8,6 +8,7 @@
  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
 <p>Desenvolvido com a aula "Clone da interface do instagram com React Native" da Digital Innovation One,  ministrado pelo <a href="https://github.com/robertosousa1/" target="_blank" rel="noopener noreferrer nofollow">Roberto Souza</a></p>
+<p>Fiz algumas alterações, como por exeplo a navegação por tabs</p>
 
 ## Índice
 - [Descrição](#descrição)
