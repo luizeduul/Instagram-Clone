@@ -5,6 +5,7 @@ import api from '../../services/api';
 
 import FeedImage from '../../components/FeedImage';
 import Header from '../../components/Header';
+import ActionButtons from '../../components/ActionButtons';
 
 import {
   Container,
@@ -65,6 +66,7 @@ const Feed = () => {
               smallSource={{ uri: item.image }}
               source={{ uri: item.small }}
             />
+            <ActionButtons />
             <Description>
               <Name>{item.author.name}</Name> {item.description}
             </Description>

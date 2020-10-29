@@ -2,13 +2,15 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
-import {Feather, FontAwesome} from '@expo/vector-icons';
+import { Feather, FontAwesome } from '@expo/vector-icons';
 import Feed from './pages/Feed';
 import Header from './components/Header';
 import Explore from './pages/Explore';
-import Camera from './pages/Camera';
+import CameraScreen from './pages/CameraScreen';
 import Notifications from './pages/Notifications';
 import Profile from './pages/Profile';
+
+import PictureIcon from './components/PictureIcon';
 
 const { Navigator, Screen } = createBottomTabNavigator();
 
@@ -28,21 +30,25 @@ const icons = {
   Notifications: {
     lib: Feather,
     name: 'heart',
-  },
-  Profile: {
-    lib: Feather,
-    name: 'circle',
-  },
+  }
 };
 
 const Routes = () => {
   return (
     <Navigator
-      screenOptions={({route}) => ({
-        tabBarIcon: ({color, size}) => {
-          const {lib: Icon, name}  = icons[route.name];
-          return <Icon name={name} size={size} color={color} />
-        }
+      screenOptions={({ route }) => ({
+        tabBarIcon: ({ color, size, focused }) => {
+          if (route.name === 'Profile') {
+            return (
+              <PictureIcon
+                onPress={() => navigation.navigate('Profile')}
+                focused={focused}
+              />
+            );
+          }
+          const { lib: Icon, name } = icons[route.name];
+          return <Icon name={name} size={size} color={color} />;
+        },
       })}
       tabBarOptions={{
         style: {
@@ -51,42 +57,42 @@ const Routes = () => {
         },
         activeTintColor: '#262626',
         inactiveTintColor: '#191919',
-        showLabel: false
+        showLabel: false,
       }}
     >
       <Screen
         name="Feed"
         component={Feed}
         options={{
-          title: "Feed"
+          title: 'Feed',
         }}
       />
       <Screen
         name="Explore"
         component={Explore}
         options={{
-          title: "Explorar"
+          title: 'Explorar',
         }}
       />
       <Screen
         name="Camera"
-        component={Camera}
+        component={CameraScreen}
         options={{
-          title: "Câmera"
+          title: 'CâmeraScreen',
         }}
       />
       <Screen
         name="Notifications"
         component={Notifications}
         options={{
-          title: "Notificações"
+          title: 'Notificações',
         }}
       />
       <Screen
         name="Profile"
         component={Profile}
         options={{
-          title: "Perfil"
+          title: 'Perfil',
         }}
       />
     </Navigator>

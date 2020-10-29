@@ -2,7 +2,7 @@
   "feed": [
     {
       "id": 1,
-      "image": "https://s2.glbimg.com/2yK3rTPvEDofzpusIhAgrkasz9A=/e.glbimg.com/og/ed/f/original/2019/09/30/oriontree_fairbairn_960.jpg",
+      "image": "https://res.cloudinary.com/robertosousa1/image/upload/v1597614176/clone-instagram/EfVhPSyUEAAfmfD_1_dqbkkx.png",
       "small": "https://res.cloudinary.com/robertosousa1/image/upload/v1597614357/clone-instagram/_iaMvfkM_reasonably_small_varo9m.jpg",
       "aspectRatio": 0.834,
       "description": "Quem aí concorda? Rosto pensativo? Já diria o grande Linus Torvalds \"Falar é fácil, me mostre o código.\"",
@@ -39,6 +39,110 @@
       "aspectRatio": 0.834,
       "description": "Sinal de aviso Alerta: inscrições chegando ao fim!\n\nÚltimos dias para você se inscrever gratuitamente no bootcamp \"Cloud Computing & Serverless\", conhecer as ferramentas de computação em nuvem da Microsoft e os principais serviços do Azure.\n\nMatricule-se: https://zcu.io/pq0r 🧲",
       "authorId": 1
+    },
+    {
+      "id": 6,
+      "image": "https://i.picsum.photos/id/241/300/300.jpg?hmac=OtjvHqw_vOCX-nRcOzNlA09ZK_Nn3Jfalx2QSRQaPbQ",
+      "small": "https://i.picsum.photos/id/241/300/300.jpg?hmac=OtjvHqw_vOCX-nRcOzNlA09ZK_Nn3Jfalx2QSRQaPbQ",
+      "aspectRatio": 0.834,
+      "description": "Good",
+      "authorId": 2
+    },
+    {
+      "id": 7,
+      "image": "https://i.picsum.photos/id/430/300/300.jpg?hmac=nlz4vKgJAM31fX8bgIOVPRsZKH7PyKl7adLusBsO_rU",
+      "small": "https://i.picsum.photos/id/430/300/300.jpg?hmac=nlz4vKgJAM31fX8bgIOVPRsZKH7PyKl7adLusBsO_rU",
+      "aspectRatio": 0.834,
+      "description": "I'm learning React and React Native",
+      "authorId": 2
+    },
+    {
+      "id": 8,
+      "image": "https://i.picsum.photos/id/1070/300/300.jpg?hmac=6FBiCDpIGO0t1Ck1hyUNeoWFNeeBaepoypLl7s6HLXA",
+      "small": "https://i.picsum.photos/id/1070/300/300.jpg?hmac=6FBiCDpIGO0t1Ck1hyUNeoWFNeeBaepoypLl7s6HLXA",
+      "aspectRatio": 0.834,
+      "description": "Yeah",
+      "authorId": 2
+    },
+    {
+      "id": 9,
+      "image": "https://i.picsum.photos/id/548/300/300.jpg?hmac=s-scs48Wf12tNJ6aUtm-txv3w1p8qbqQ4DN_exIan98",
+      "small": "https://i.picsum.photos/id/548/300/300.jpg?hmac=s-scs48Wf12tNJ6aUtm-txv3w1p8qbqQ4DN_exIan98",
+      "aspectRatio": 0.834,
+      "description": "Evolution",
+      "authorId": 2
+    },
+    {
+      "id": 10,
+      "image": "https://i.picsum.photos/id/36/300/300.jpg?hmac=xq5Q2xxsuySYD20gWSFBOoi1U3UaRyBXAkt-yMAME84",
+      "small": "https://i.picsum.photos/id/36/300/300.jpg?hmac=xq5Q2xxsuySYD20gWSFBOoi1U3UaRyBXAkt-yMAME84",
+      "aspectRatio": 0.834,
+      "description": "I like ",
+      "authorId": 2
+    },
+    {
+      "id": 11,
+      "image": "https://i.picsum.photos/id/572/300/300.jpg?hmac=GmFM1BbR4Z_ProRT8-H-_VNimN1D_JkUnpC1Aq7gRA8",
+      "small": "https://i.picsum.photos/id/572/300/300.jpg?hmac=GmFM1BbR4Z_ProRT8-H-_VNimN1D_JkUnpC1Aq7gRA8",
+      "aspectRatio": 0.834,
+      "description": "Ok ",
+      "authorId": 2
+    },
+    {
+      "id": 12,
+      "image": "https://i.picsum.photos/id/519/300/300.jpg?hmac=EKA6SoBxt3Z9ZwAbH64Cds-Uv0DGXGEIXRFrko81YlM",
+      "small": "https://i.picsum.photos/id/519/300/300.jpg?hmac=EKA6SoBxt3Z9ZwAbH64Cds-Uv0DGXGEIXRFrko81YlM",
+      "aspectRatio": 0.834,
+      "description": "Alert",
+      "authorId": 2
+    },
+    {
+      "id": 13,
+      "image": "https://i.picsum.photos/id/430/300/300.jpg?hmac=nlz4vKgJAM31fX8bgIOVPRsZKH7PyKl7adLusBsO_rU",
+      "small": "https://i.picsum.photos/id/430/300/300.jpg?hmac=nlz4vKgJAM31fX8bgIOVPRsZKH7PyKl7adLusBsO_rU",
+      "aspectRatio": 0.834,
+      "description": "I'm learning React and React Native",
+      "authorId": 2
+    },
+    {
+      "id": 14,
+      "image": "https://i.picsum.photos/id/1070/300/300.jpg?hmac=6FBiCDpIGO0t1Ck1hyUNeoWFNeeBaepoypLl7s6HLXA",
+      "small": "https://i.picsum.photos/id/1070/300/300.jpg?hmac=6FBiCDpIGO0t1Ck1hyUNeoWFNeeBaepoypLl7s6HLXA",
+      "aspectRatio": 0.834,
+      "description": "Yeah",
+      "authorId": 2
+    },
+    {
+      "id": 15,
+      "image": "https://i.picsum.photos/id/548/300/300.jpg?hmac=s-scs48Wf12tNJ6aUtm-txv3w1p8qbqQ4DN_exIan98",
+      "small": "https://i.picsum.photos/id/548/300/300.jpg?hmac=s-scs48Wf12tNJ6aUtm-txv3w1p8qbqQ4DN_exIan98",
+      "aspectRatio": 0.834,
+      "description": "Evolution",
+      "authorId": 2
+    },
+    {
+      "id": 16,
+      "image": "https://res.cloudinary.com/robertosousa1/image/upload/v1597613669/clone-instagram/EeMK0vcUEAAevJY_1_axfpot.jpg",
+      "small": "https://res.cloudinary.com/robertosousa1/image/upload/v1597614357/clone-instagram/_iaMvfkM_reasonably_small_varo9m.jpg",
+      "aspectRatio": 0.834,
+      "description": "Pablo Henrique foi eleito como DIO Tech Hero! Para ele \"Ver os alunos aprenderem com o conteúdo e darem feedbacks maravilhosos, criando seus próprios aplicativos e colocando em prática o que aprenderam, é muito gratificante.\" Para ensinar, cadastre-se: https://zcu.io/n2ku",
+      "authorId": 1
+    },
+    {
+      "id": 17,
+      "image": "https://res.cloudinary.com/robertosousa1/image/upload/v1597613959/clone-instagram/EeHZVa2UcAA8MVj_1_it0vjd.png",
+      "small": "https://res.cloudinary.com/robertosousa1/image/upload/v1597614357/clone-instagram/_iaMvfkM_reasonably_small_varo9m.jpg",
+      "aspectRatio": 0.834,
+      "description": "Sinal de aviso Alerta: inscrições chegando ao fim!\n\nÚltimos dias para você se inscrever gratuitamente no bootcamp \"Cloud Computing & Serverless\", conhecer as ferramentas de computação em nuvem da Microsoft e os principais serviços do Azure.\n\nMatricule-se: https://zcu.io/pq0r 🧲",
+      "authorId": 1
+    },
+    {
+      "id": 18,
+      "image": "https://i.picsum.photos/id/241/300/300.jpg?hmac=OtjvHqw_vOCX-nRcOzNlA09ZK_Nn3Jfalx2QSRQaPbQ",
+      "small": "https://i.picsum.photos/id/241/300/300.jpg?hmac=OtjvHqw_vOCX-nRcOzNlA09ZK_Nn3Jfalx2QSRQaPbQ",
+      "aspectRatio": 0.834,
+      "description": "Good",
+      "authorId": 2
     }
   ],
   "authors": [
@@ -46,6 +150,122 @@
       "id": 1,
       "name": "dio4tech",
       "avatar": "https://res.cloudinary.com/robertosousa1/image/upload/v1597614357/clone-instagram/_iaMvfkM_reasonably_small_varo9m.jpg"
+    },
+    {
+      "id": 2,
+      "name": "imagesRandoms",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRz6q6G30kOFdQ5poxl-MpJfGLLd4QLboZlXQ&usqp=CAU"
+    }
+  ],
+  "feedProfile": [
+    {
+      "id": 1,
+      "image": "https://i.picsum.photos/id/579/300/300.jpg?hmac=Kp-drrL1Vv2KN0hgNHOAovxANGanQiXxjPu9wvvk2h4",
+      "small": "https://i.picsum.photos/id/579/300/300.jpg?hmac=Kp-drrL1Vv2KN0hgNHOAovxANGanQiXxjPu9wvvk2h4",
+      "aspectRatio": 0.834,
+      "description": "Quem aí concorda? Rosto pensativo? Já diria o grande Linus Torvalds \"Falar é fácil, me mostre o código.\"",
+      "ownerId": 1
+    },
+    {
+      "id": 2,
+      "image": "https://i.picsum.photos/id/987/300/300.jpg?hmac=CL-U9z0TBiCphrNbRUFhFft9TkMq7Brh17HWTbdYNfc",
+      "small": "https://i.picsum.photos/id/987/300/300.jpg?hmac=CL-U9z0TBiCphrNbRUFhFft9TkMq7Brh17HWTbdYNfc",
+      "aspectRatio": 0.834,
+      "description": "Quem aí concorda? Rosto pensativo? Já diria o grande Linus Torvalds \"Falar é fácil, me mostre o código.\"",
+      "ownerId": 1
+    },
+    {
+      "id": 3,
+      "image": "https://i.picsum.photos/id/122/300/300.jpg?hmac=tmvZ8I8btqd1Y6cT4OVoQG4ADYRuyXDgPe4xhiTfeuI",
+      "small": "https://i.picsum.photos/id/122/300/300.jpg?hmac=tmvZ8I8btqd1Y6cT4OVoQG4ADYRuyXDgPe4xhiTfeuI",
+      "aspectRatio": 0.834,
+      "description": "Quem aí concorda? Rosto pensativo? Já diria o grande Linus Torvalds \"Falar é fácil, me mostre o código.\"",
+      "ownerId": 1
+    },
+    {
+      "id": 4,
+      "image": "https://i.picsum.photos/id/46/300/300.jpg?hmac=d0_MNL7cjS7tre8_kfeiCGuF_l8Fz6qcD6k2lOB73EU",
+      "small": "https://i.picsum.photos/id/46/300/300.jpg?hmac=d0_MNL7cjS7tre8_kfeiCGuF_l8Fz6qcD6k2lOB73EU",
+      "aspectRatio": 0.834,
+      "description": "Quem aí concorda? Rosto pensativo? Já diria o grande Linus Torvalds \"Falar é fácil, me mostre o código.\"",
+      "ownerId": 1
+    },
+    {
+      "id": 5,
+      "image": "https://i.picsum.photos/id/645/300/300.jpg?hmac=YlKS2mn44FIHylmaQhbKpkZvp4Gic53Nh0PPrMCkZ5g",
+      "small": "https://i.picsum.photos/id/645/300/300.jpg?hmac=YlKS2mn44FIHylmaQhbKpkZvp4Gic53Nh0PPrMCkZ5g",
+      "aspectRatio": 0.834,
+      "description": "Quem aí concorda? Rosto pensativo? Já diria o grande Linus Torvalds \"Falar é fácil, me mostre o código.\"",
+      "ownerId": 1
+    },
+    {
+      "id": 6,
+      "image": "https://i.picsum.photos/id/250/300/300.jpg?hmac=mZh9RQOu46-RyeW5J7Jhgjt9pbthzGC7l7Uy9XhFjYk",
+      "small": "https://i.picsum.photos/id/250/300/300.jpg?hmac=mZh9RQOu46-RyeW5J7Jhgjt9pbthzGC7l7Uy9XhFjYk",
+      "aspectRatio": 0.834,
+      "description": "Quem aí concorda? Rosto pensativo? Já diria o grande Linus Torvalds \"Falar é fácil, me mostre o código.\"",
+      "ownerId": 1
+    },
+    {
+      "id": 7,
+      "image": "https://i.picsum.photos/id/743/300/300.jpg?hmac=etOxwclMseIaDm0uF76VFeu27d7MXfDkNVwZQkQ_KVI",
+      "small": "https://i.picsum.photos/id/743/300/300.jpg?hmac=etOxwclMseIaDm0uF76VFeu27d7MXfDkNVwZQkQ_KVI",
+      "aspectRatio": 0.834,
+      "description": "Quem aí concorda? Rosto pensativo? Já diria o grande Linus Torvalds \"Falar é fácil, me mostre o código.\"",
+      "ownerId": 1
+    },
+    {
+      "id": 8,
+      "image": "https://i.picsum.photos/id/225/300/300.jpg?hmac=l9BC4fxz4re8qwmxIqgPO4Th2arxNsQd5VGR6lWt2nQ",
+      "small": "https://i.picsum.photos/id/225/300/300.jpg?hmac=l9BC4fxz4re8qwmxIqgPO4Th2arxNsQd5VGR6lWt2nQ",
+      "aspectRatio": 0.834,
+      "description": "Quem aí concorda? Rosto pensativo? Já diria o grande Linus Torvalds \"Falar é fácil, me mostre o código.\"",
+      "ownerId": 1
+    },
+    {
+      "id": 9,
+      "image": "https://i.picsum.photos/id/645/300/300.jpg?hmac=YlKS2mn44FIHylmaQhbKpkZvp4Gic53Nh0PPrMCkZ5g",
+      "small": "https://i.picsum.photos/id/645/300/300.jpg?hmac=YlKS2mn44FIHylmaQhbKpkZvp4Gic53Nh0PPrMCkZ5g",
+      "aspectRatio": 0.834,
+      "description": "Quem aí concorda? Rosto pensativo? Já diria o grande Linus Torvalds \"Falar é fácil, me mostre o código.\"",
+      "ownerId": 1
+    },
+    {
+      "id": 10,
+      "image": "https://i.picsum.photos/id/987/300/300.jpg?hmac=CL-U9z0TBiCphrNbRUFhFft9TkMq7Brh17HWTbdYNfc",
+      "small": "https://i.picsum.photos/id/987/300/300.jpg?hmac=CL-U9z0TBiCphrNbRUFhFft9TkMq7Brh17HWTbdYNfc",
+      "aspectRatio": 0.834,
+      "description": "Quem aí concorda? Rosto pensativo? Já diria o grande Linus Torvalds \"Falar é fácil, me mostre o código.\"",
+      "ownerId": 1
+    },
+    {
+      "id": 11,
+      "image": "https://i.picsum.photos/id/46/300/300.jpg?hmac=d0_MNL7cjS7tre8_kfeiCGuF_l8Fz6qcD6k2lOB73EU",
+      "small": "https://i.picsum.photos/id/46/300/300.jpg?hmac=d0_MNL7cjS7tre8_kfeiCGuF_l8Fz6qcD6k2lOB73EU",
+      "aspectRatio": 0.834,
+      "description": "Quem aí concorda? Rosto pensativo? Já diria o grande Linus Torvalds \"Falar é fácil, me mostre o código.\"",
+      "ownerId": 1
+    },
+    {
+      "id": 12,
+      "image": "https://i.picsum.photos/id/122/300/300.jpg?hmac=tmvZ8I8btqd1Y6cT4OVoQG4ADYRuyXDgPe4xhiTfeuI",
+      "small": "https://i.picsum.photos/id/122/300/300.jpg?hmac=tmvZ8I8btqd1Y6cT4OVoQG4ADYRuyXDgPe4xhiTfeuI",
+      "aspectRatio": 0.834,
+      "description": "Quem aí concorda? Rosto pensativo? Já diria o grande Linus Torvalds \"Falar é fácil, me mostre o código.\"",
+      "ownerId": 1
+    }
+  ],
+  "owners": [
+    {
+      "id": 1,
+      "user_name": "ledz",
+      "name": "Luiz Edu",
+      "avatar": "https://pm1.narvii.com/6282/1c9b09f96b7a529cdb0a8ab5617e2404028b4624_00.jpg",
+      "bio": "Frontend Developer,\nLearning React and React Native.",
+      "followers": 259,
+      "following": 690,
+      "totalPics": 12
     }
   ]
+
 }

@@ -1,33 +1,69 @@
 import React, { useEffect, useState } from 'react';
-import { FlatList } from 'react-native';
+import { ScrollView, TextInput, View, FlatList } from 'react-native';
+import { Feather, Octicons } from '@expo/vector-icons';
 
 import api from '../../services/api';
 
 import {
   Container,
-  Post,
-  Header,
-  Avatar,
-  Name,
-  Description,
+  ExploreItems,
+  InputHeader,
+  InputContainer,
+  Button,
+  ButtonInput,
+  TextButton,
+  ImageItem,
   Loading,
 } from './styles';
 
-import FeedImage from '../../components/FeedImage';
+const buttonsList = [
+  {
+    id: 1,
+    label: 'IGTV',
+  },
+  {
+    id: 2,
+    label: 'Loja',
+  },
+  {
+    id: 3,
+    label: 'Viagem',
+  },
+  {
+    id: 4,
+    label: 'Arquitetura',
+  },
+  {
+    id: 5,
+    label: 'Decoração',
+  },
+  {
+    id: 6,
+    label: 'Arte',
+  },
+  {
+    id: 7,
+    label: 'Comida',
+  },
+  {
+    id: 8,
+    label: 'Estilo',
+  },
+];
 
 const Explore = () => {
-  const [feed, setFeed] = useState([]);
+  const [explore, setExplore] = useState([]);
   const [loading, setLoading] = useState(false);
   const [refreshing, setRefreshing] = useState(false);
 
   async function LoadPage() {
     setLoading(true);
 
-    const { data } = await api.get('/feed?_expand=author');
+    const { data } = await api.get('/feed');
 
     setLoading(false);
 
-    setFeed(data);
+    setExplore(data);
   }
   useEffect(() => {
     LoadPage();
@@ -41,32 +77,49 @@ const Explore = () => {
 
   return (
     <Container>
+      <InputHeader>
+        <InputContainer>
+          <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+            <ButtonInput>
+              <Feather name="search" size={25} />
+            </ButtonInput>
+            <TextInput
+              placeholder="Pesquisar"
+              style={{ fontSize: 16, fontWeight: '600', marginLeft: 12 }}
+            />
+          </View>
+          <ButtonInput>
+            <Octicons name="screen-full" size={25} />
+          </ButtonInput>
+        </InputContainer>
+        <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+          {buttonsList.map((button) => (
+            <Button key={button.id}>
+              <TextButton>{button.label}</TextButton>
+            </Button>
+          ))}
+        </ScrollView>
+      </InputHeader>
       <FlatList
         key="List"
-        data={feed}
+        data={explore}
         keyExtractor={(item) => String(item.id)}
         viewabilityConfig={{
           viewAreaCoveragePercentThreshold: 10,
         }}
         showsVerticalScrollIndicator={false}
+        scrollToEnd
+        numColumns={3}
+        columnWrapperStyle={{
+          marginLeft: 3,
+        }}
         onRefresh={RefreshList}
         refreshing={refreshing}
         ListFooterComponent={loading && <Loading />}
         renderItem={({ item }) => (
-          <Post>
-            <Header>
-              <Avatar source={{ uri: item.author.avatar }} />
-              <Name>{item.author.name}</Name>
-            </Header>
-            <FeedImage
-              aspectRatio={item.aspectRatio}
-              smallSource={{ uri: item.image }}
-              source={{ uri: item.small }}
-            />
-            <Description>
-              <Name>{item.author.name}</Name> {item.description}
-            </Description>
-          </Post>
+          <ExploreItems>
+            <ImageItem source={{ uri: item.image }} />
+          </ExploreItems>
         )}
       />
     </Container>

@@ -1,30 +1,35 @@
+/* eslint-disable prettier/prettier */
 import styled from 'styled-components/native';
 
 export const Container = styled.View``;
 
-export const Post = styled.View`
-  margin-top: 10px;
-`;
-
-export const Header = styled.View`
+export const HeaderAcitivityView = styled.View`
   padding: 15px;
   flex-direction: row;
-  align-items: center;
+  background-color: #FAFAFA;
+`;
+
+export const PageTitle = styled.Text`
+  font-size: 18px;
+  font-weight: bold;
+`;
+
+export const Acitivity = styled.View`
+  padding: 5px 15px;
+  flex-direction: row;
 `;
 
 export const Avatar = styled.Image`
-  width: 32px;
-  height: 32px;
-  border-radius: 16px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
   margin-right: 10px;
-`;
-
-export const Name = styled.Text`
-  font-weight: 600;
+  margin-top: 18px;
 `;
 
 export const Description = styled.Text`
-  padding: 15px;
+  padding-top: 16px;
+  max-width: 240px;
   line-height: 18px;
 `;
 
