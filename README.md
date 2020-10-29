@@ -36,7 +36,7 @@
 ## Previews do projeto
 
 <p align="center">
- Comming soon
+ <img src="https://ik.imagekit.io/8qmbx6p1dq/InstaClone/instaclonegif_n-0XF6eh5.gif" alt="Video demonstração"/>
 </p>
 
 ---
