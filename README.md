@@ -29,7 +29,8 @@
 <p>Primeiramente faça a instalação das dependencias do projeto</p>
 <p>Faça a instalação das dependencias do projeto. Com o comando: <strong>yarn install</strong> ou <strong>npm install</strong>.</p>
 <p>Utilizei um json server para simular uma api, então rode o comando: <strong>yarn server</strong> para que rode o script configurado para executar o comando de inicialização do json server</p>
-<p>E executar o seguinte comando pra rodar o projeto: <strong>expo start</strong></p>
+<p>E executar o seguinte comando pra rodar o projeto: <strong>yarn start</strong></p>
+<p>Ou executar o seguinte comando pra fazer o build do projeto: <strong>yarn android</strong></p>
 
 ---
 
